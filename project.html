@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#eee9dc" />
+  <title>Project — Vittória Corulla Ferrero</title>
+  <link rel="icon" type="image/png" href="assets/reference/cyanotype-flower.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&family=Barlow+Condensed:wght@200;300;400&family=Big+Shoulders+Display:wght@200;300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="project.css?v=12" />
+  <script src="project-data.js?v=13" defer></script>
+  <script src="project.js?v=12" defer></script>
+</head>
+<body>
+  <header class="project-nav">
+    <a class="overview-link" href="index.html" data-label="back">← overview</a>
+    <a class="project-flower" href="index.html#home" aria-label="Portfolio home"><img src="assets/reference/cyanotype-flower-cutout.png" alt="" /></a>
+    <div class="project-language" aria-label="Language"><button data-lang="en">EN</button><button data-lang="pt">PT</button><button data-lang="es">ES</button><button data-lang="de">DE</button></div>
+  </header>
+  <main id="project-content">
+    <section class="project-hero">
+      <p class="project-category" id="project-category"></p>
+      <h1 id="project-title"></h1>
+      <div class="project-meta"><span id="project-year"></span><a id="project-article" target="_blank" rel="noopener" hidden>read article ↗</a></div>
+      <figure class="project-cover-figure"><img id="project-cover" alt="" /><figcaption id="project-cover-caption" hidden></figcaption></figure>
+    </section>
+    <section class="project-intro"><p id="project-copy"></p></section>
+    <section class="project-technical" id="project-technical" hidden><h2 id="technical-title">Technical information</h2><dl id="technical-list"></dl></section>
+    <section class="project-gallery" id="project-gallery" aria-label="Project gallery"></section>
+    <nav class="project-next"><a id="previous-project" href="#">← <span></span></a><a id="next-project" href="#"><span></span> →</a></nav>
+  </main>
+  <dialog class="lightbox" aria-label="Image preview"><button type="button" aria-label="Close image preview">×</button><img alt="" /></dialog>
+</body>
+</html>
